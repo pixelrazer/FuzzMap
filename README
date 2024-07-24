@@ -17,7 +17,6 @@ This script automates the process of performing an Nmap scan, detecting redirect
 
 ## Usage
 
-```bash
 usage: FuzzMap.py [-h] --ip IP [--extra EXTRA] [--output OUTPUT] --wordlist WORDLIST --vwordlist VWORDLIST
 
 options:
@@ -36,5 +35,4 @@ Once the scan gets to vhost and directory fuzzing, there will be no output, but 
 
 ## Example
 
-```bash
 python3 FuzzMap.py --ip 192.168.1.1 --wordlist dir_wordlist.txt --vwordlist vhost_wordlist.txt
