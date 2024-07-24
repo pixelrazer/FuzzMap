@@ -15,25 +15,6 @@ This script automates the process of performing an Nmap scan, detecting redirect
 - `ffuf` tool installed
 - Sudo permissions to modify `/etc/hosts`
 
-## Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/FuzzMap.git
-    cd FuzzMap
-    ```
-
-2. **Ensure you have Python 3.x installed:**
-
-    ```bash
-    python3 --version
-    ```
-
-3. **Install any necessary dependencies:**
-
-    This script uses standard Python libraries (`subprocess`, `argparse`, `os`, `threading`, `signal`, `sys`, `time`), which should be included in your Python installation.
-
 ## Usage
 
 ```bash
